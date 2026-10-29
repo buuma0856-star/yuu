@@ -1,0 +1,47 @@
+{
+  "store_name": "お店",
+  "shift_patterns": {
+    "早番": {
+      "start": "09:00",
+      "end": "14:00"
+    },
+    "遅番": {
+      "start": "14:00",
+      "end": "22:00"
+    }
+  },
+  "requirements": {
+    "default": {
+      "早番": 2,
+      "遅番": 2
+    },
+    "sat": {
+      "早番": 3,
+      "遅番": 3
+    },
+    "sun": {
+      "早番": 3,
+      "遅番": 3
+    },
+    "dates": {
+      "2026-12-31": {
+        "早番": 1
+      }
+    }
+  },
+  "day_start": "09:00",
+  "day_end": "22:00",
+  "max_days_per_week": 5,
+  "max_hours_per_week": 40,
+  "max_shifts_per_day": 1,
+  "collect_month": "next",
+  "reminder": {
+    "enabled": true,
+    "days": [
+      15,
+      20
+    ],
+    "hour": 10
+  },
+  "timezone_offset_hours": 9
+}
